@@ -427,7 +427,7 @@ def humanbytes(size):
 
 async def get_shortlink(link):
 
-    url = f'{SHORT_URL}/api'
+    url = f'https://mdisk.info/api'
     params = {
       'api': SHORT_API,
       'url': link,
